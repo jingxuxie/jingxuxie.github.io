@@ -8,3 +8,8 @@ redirect_from:
   - /about.html
 ---
 
+Hi, welcome to my homepage!
+
+I am a third-year PhD student in the [Department of Physics at UC Berkeley](https://physics.berkeley.edu/). 
+
+Feel free to contact me if you would like to connect!
