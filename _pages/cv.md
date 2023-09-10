@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * B.S. in Physics, Xi'an Jiaotong University, 2021
-* Ph.D. in Applied Science and Technology, University of California, Berkeley, 2025 (expected)
+* Ph.D. Candidate in Applied Science and Technology, University of California, Berkeley, 2025 (expected)
 
 Work experience
 ======
