@@ -14,19 +14,6 @@ Education
 * B.S. in Physics, Xi'an Jiaotong University, 2021
 * Ph.D. Candidate in Applied Science and Technology, University of California, Berkeley, 2025 (expected)
 
-Honors & Awards
-======
-* Clarendon Scholarship (top 0.3%), University of Cambridge, 2021
-* First-Class Everest Scholarship (top 5%), 2020
-* National Scholarship (top 0.2%), 2019
-* Meritorious Winner in Mathematical Contest in Modelling (MCM), 2019
-* Highest Hornor for undergraduate students (top 0.05%), Xi’an Jiaotong University, 2018
-
-Skills
-======
-* **Programming**: Python, MATLAB, SQL, C, CUDA, C++
-* **Languages**: Chinese, English
-
 Publications
 ======
 <!--
@@ -59,6 +46,19 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 -->
+
+Honors & Awards
+======
+* Clarendon Scholarship (top 0.3%), University of Cambridge, 2021
+* First-Class Everest Scholarship (top 5%), 2020
+* National Scholarship (top 0.2%), 2019
+* Meritorious Winner in Mathematical Contest in Modelling (MCM), 2019
+* Highest Hornor for undergraduate students (top 0.05%), Xi’an Jiaotong University, 2018
+
+Skills
+======
+* **Programming**: Python, MATLAB, SQL, C, CUDA, C++
+* **Languages**: Chinese, English
   
 Service and leadership
 ======
