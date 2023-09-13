@@ -21,7 +21,7 @@ author_profile: true
 
 ## Preprints
 
-- Z. Zhang<sup>*</sup>, **J. Xie**<sup>*</sup>, W. Zhao, C. Sanborn, S. Wang, S. Kahn, K. Watanabe, T. Taniguchi, A. Zettl, M. Crommie, F. Wang, “Engineering correlated insulators in bilayer graphene with a remote Coulomb superlattice”, manuscript accepted by *Nature Materials* (2023).
+- Z. Zhang\*, **J. Xie**\*, W. Zhao, C. Sanborn, S. Wang, S. Kahn, K. Watanabe, T. Taniguchi, A. Zettl, M. Crommie, F. Wang, “Engineering correlated insulators in bilayer graphene with a remote Coulomb superlattice”, manuscript accepted by *Nature Materials* (2023).
   
 - R. Qi, A. Joe, Z. Zhang, Y. Zeng, T. Zheng, Q. Feng, E. Regan, **J. Xie**, Z. Lu, T. Taniguchi, K. Watanabe, S. Tongay, M. Crommie, A. MacDonald, F. Wang, “Thermodynamic behavior of correlated electron-hole fluids in van der Waals heterostructures”, *arXiv*:2306.13265.
   
@@ -31,11 +31,11 @@ author_profile: true
   
 - J. Chen, B. Lyu, S. Lou, X. Zhou, T. Wu, **J. Xie**, Y. Chen, C Hu, K. Watanabe, T. Taniguchi, G. Xie, M. Liao, W. Yang, G. Zang, B. Wei, X. Wang, Q. Liang, G. Wang, J. Ma, D. Qian, G. Chen, T. Li, M. Qin, X. Xu, Z. Shi, “Tunable Luttinger liquid and Mott states in one-dimensional moiré superlattices”, manuscript under review at *Nature Nanotechnology*.
   
-- B. Lyu<sup>*</sup>, J. Chen<sup>*</sup>, S. Wang<sup>*</sup>, S. Lou<sup>*</sup>, P. Shen<sup>*</sup>, **J. Xie**<sup>*</sup>, L. Qiu*, I. Mitchell, C. Li, C. Hu, X. Zhou, K. Watanabe , T. Taniguchi, X. Wang, J. Jia, Q. Liang, G. Chen, T. Li, S. Wang, W. Ouyang, O. Hod, F. Ding, M. Urbakh, Z. Shi, “Ultra-Long Homochiral Graphene Nanoribbons Grown Within h-BN Stacks for High-Performance Electronics”, manuscript under review at *Nature*.
+- B. Lyu\*, J. Chen\*, S. Wang\*, S. Lou\*, P. Shen*, **J. Xie**\*, L. Qiu\*, I. Mitchell, C. Li, C. Hu, X. Zhou, K. Watanabe , T. Taniguchi, X. Wang, J. Jia, Q. Liang, G. Chen, T. Li, S. Wang, W. Ouyang, O. Hod, F. Ding, M. Urbakh, Z. Shi, “Ultra-Long Homochiral Graphene Nanoribbons Grown Within h-BN Stacks for High-Performance Electronics”, manuscript under review at *Nature*.
 
 ## Publications
 
-- X. Zhou<sup>*</sup>, **J. Xie**<sup>*</sup>, G. Li, J. Zhang, M. Xia, W. Luo, Z. Shi, “Moiré-induced band-gap opening in one-dimensional superlattices of carbon nanotubes on hexagonal boron nitride”, *Phys. Rev. B* 105, 115433 (2022).
+- X. Zhou\*, **J. Xie**\*, G. Li, J. Zhang, M. Xia, W. Luo, Z. Shi, “Moiré-induced band-gap opening in one-dimensional superlattices of carbon nanotubes on hexagonal boron nitride”, *Phys. Rev. B* 105, 115433 (2022).
 
 - B. Lyu, J. Chen, S. Luo, C. Li, L. Qiu, W. Ouyang, **J. Xie**, I. Michell, T. Wu, A. Deng, C. Hu, X. Zhou, P. Shen, S. Ma, Z. Wu, K. Watanabe, T. Taniguchi, X. Wang, Q. Liang, J. Jia, M. Urbakh, O. Hod, F. Ding, S. Wang, Z. Shi, “Catalytic growth of ultralong graphene nanoribbons on insulating substrates”, *Adv. Mater.* 2200956 (2022).
 
