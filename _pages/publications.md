@@ -33,7 +33,7 @@ author_profile: true
   
 - B. Lyu\*, J. Chen\*, S. Wang\*, S. Lou\*, P. Shen\*, **J. Xie**\*, L. Qiu\*, I. Mitchell, C. Li, C. Hu, X. Zhou, K. Watanabe , T. Taniguchi, X. Wang, J. Jia, Q. Liang, G. Chen, T. Li, S. Wang, W. Ouyang, O. Hod, F. Ding, M. Urbakh, Z. Shi, “Ultra-Long Homochiral Graphene Nanoribbons Grown Within h-BN Stacks for High-Performance Electronics”, manuscript under review at *Nature*.
 
-## Publications
+## Journal Paper
 
 - X. Zhou\*, **J. Xie**\*, G. Li\*, J. Zhang, M. Xia, W. Luo, Z. Shi, “Moiré-induced band-gap opening in one-dimensional superlattices of carbon nanotubes on hexagonal boron nitride”, *Phys. Rev. B* 105, 115433 (2022).
 
