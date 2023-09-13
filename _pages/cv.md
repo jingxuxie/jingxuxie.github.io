@@ -14,18 +14,6 @@ Education
 * B.S. in Physics, Xi'an Jiaotong University, 2021
 * Ph.D. Candidate in Applied Science and Technology, University of California, Berkeley, 2025 (expected)
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
 Honors & Awards
 ======
 * Clarendon Scholarship (top 0.3%), University of Cambridge, 2021
@@ -46,6 +34,8 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   -->
+#### * denotes equal contribution
+
 - X. Zhou\*, **J. Xie**\*, G. Li\*, J. Zhang, M. Xia, W. Luo, Z. Shi, “Moiré-induced band-gap opening in one-dimensional superlattices of carbon nanotubes on hexagonal boron nitride”, *Phys. Rev. B* 105, 115433 (2022).
 
 - B. Lyu, J. Chen, S. Luo, C. Li, L. Qiu, W. Ouyang, **J. Xie**, I. Michell, T. Wu, A. Deng, C. Hu, X. Zhou, P. Shen, S. Ma, Z. Wu, K. Watanabe, T. Taniguchi, X. Wang, Q. Liang, J. Jia, M. Urbakh, O. Hod, F. Ding, S. Wang, Z. Shi, “Catalytic growth of ultralong graphene nanoribbons on insulating substrates”, *Adv. Mater.* 2200956 (2022).
