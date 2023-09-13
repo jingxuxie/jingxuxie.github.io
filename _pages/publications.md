@@ -35,7 +35,7 @@ author_profile: true
 
 ## Publications
 
-- X. Zhou<sup>*</sup>, **J. Xie**<sup>*</sup>, G. Li, J. Zhang*, M. Xia, W. Luo, Z. Shi, “Moiré-induced band-gap opening in one-dimensional superlattices of carbon nanotubes on hexagonal boron nitride”, *Phys. Rev. B* 105, 115433 (2022).
+- X. Zhou<sup>*</sup>, **J. Xie**<sup>*</sup>, G. Li, J. Zhang, M. Xia, W. Luo, Z. Shi, “Moiré-induced band-gap opening in one-dimensional superlattices of carbon nanotubes on hexagonal boron nitride”, *Phys. Rev. B* 105, 115433 (2022).
 
 - B. Lyu, J. Chen, S. Luo, C. Li, L. Qiu, W. Ouyang, **J. Xie**, I. Michell, T. Wu, A. Deng, C. Hu, X. Zhou, P. Shen, S. Ma, Z. Wu, K. Watanabe, T. Taniguchi, X. Wang, Q. Liang, J. Jia, M. Urbakh, O. Hod, F. Ding, S. Wang, Z. Shi, “Catalytic growth of ultralong graphene nanoribbons on insulating substrates”, *Adv. Mater.* 2200956 (2022).
 
