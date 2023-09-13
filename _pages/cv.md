@@ -63,6 +63,7 @@ Skills
 Service and leadership
 ======
 * Undergraduate research mentor
+* Volunteer at local elementary schools
 * Volunteer at Shaanxi History Museum
 
 Hobbies
