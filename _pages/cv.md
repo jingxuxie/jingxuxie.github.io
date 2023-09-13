@@ -46,6 +46,15 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   -->
+- X. Zhou\*, **J. Xie**\*, G. Li\*, J. Zhang, M. Xia, W. Luo, Z. Shi, “Moiré-induced band-gap opening in one-dimensional superlattices of carbon nanotubes on hexagonal boron nitride”, *Phys. Rev. B* 105, 115433 (2022).
+
+- B. Lyu, J. Chen, S. Luo, C. Li, L. Qiu, W. Ouyang, **J. Xie**, I. Michell, T. Wu, A. Deng, C. Hu, X. Zhou, P. Shen, S. Ma, Z. Wu, K. Watanabe, T. Taniguchi, X. Wang, Q. Liang, J. Jia, M. Urbakh, O. Hod, F. Ding, S. Wang, Z. Shi, “Catalytic growth of ultralong graphene nanoribbons on insulating substrates”, *Adv. Mater.* 2200956 (2022).
+
+- H. Li\*, S. Li\*, M. H. Naik\*, **J. Xie**, X. Li, J. Wang, E. Regan, D. Wang, W. Zhao, S. Zhao, S. Kahn, K. Yumigeta, M. Blei, T. Taniguchi, K. Watanabe, S. Tongay, A. Zettl, S. G. Louie, F. Wang, and M. F. Crommie, “Imaging moiré flat bands in 3D reconstructed WSe2/WS2 superlattices”, *Nature Materials* 20, 945–950 (2021).
+
+- H. Li\*, S. Li\*, M. H. Naik\*, **J. Xie**, X. Li, E. Regan, D Wang, W. Zhao, K. Yumigeta, M. Blei, T. Taniguchi, K. Watanabe, S. Tongay, A. Zettl, S. G. Louie, M. F. Crommie, F. Wang, “Imaging local discharge cascades for correlated electrons in WS2/WSe2 moiré superlattices”, *Nature Physics* 17, 1114–1119 (2021).
+
+- J. Du, B. Lyu, W. Shan, J. Chen, X. Zhou, **J. Xie**, A. Deng, C. Hu, Q. Liang, G. Xie, X. Li, W. Luo, Z. Shi, “Fano resonance enabled infrared nano-imaging of local strain in bilayer graphene”, *Chinese Phys. Lett.* (2021).
   
 Talks
 ======
