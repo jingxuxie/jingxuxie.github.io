@@ -31,7 +31,7 @@ author_profile: true
   
 - J. Chen, B. Lyu, S. Lou, X. Zhou, T. Wu, **J. Xie**, Y. Chen, C Hu, K. Watanabe, T. Taniguchi, G. Xie, M. Liao, W. Yang, G. Zang, B. Wei, X. Wang, Q. Liang, G. Wang, J. Ma, D. Qian, G. Chen, T. Li, M. Qin, X. Xu, Z. Shi, “Tunable Luttinger liquid and Mott states in one-dimensional moiré superlattices”, manuscript under review at *Nature Nanotechnology*.
   
-- B. Lyu\*, J. Chen\*, S. Wang\*, S. Lou\*, P. Shen*, **J. Xie**\*, L. Qiu\*, I. Mitchell, C. Li, C. Hu, X. Zhou, K. Watanabe , T. Taniguchi, X. Wang, J. Jia, Q. Liang, G. Chen, T. Li, S. Wang, W. Ouyang, O. Hod, F. Ding, M. Urbakh, Z. Shi, “Ultra-Long Homochiral Graphene Nanoribbons Grown Within h-BN Stacks for High-Performance Electronics”, manuscript under review at *Nature*.
+- B. Lyu\*, J. Chen\*, S. Wang\*, S. Lou\*, P. Shen\*, **J. Xie**\*, L. Qiu\*, I. Mitchell, C. Li, C. Hu, X. Zhou, K. Watanabe , T. Taniguchi, X. Wang, J. Jia, Q. Liang, G. Chen, T. Li, S. Wang, W. Ouyang, O. Hod, F. Ding, M. Urbakh, Z. Shi, “Ultra-Long Homochiral Graphene Nanoribbons Grown Within h-BN Stacks for High-Performance Electronics”, manuscript under review at *Nature*.
 
 ## Publications
 
