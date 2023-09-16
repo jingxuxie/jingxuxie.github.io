@@ -62,6 +62,7 @@ Skills
   
 Service and leadership
 ======
+* Supply chain manager
 * Undergraduate research mentor
 * Volunteer at local elementary schools
 * Volunteer at Shaanxi History Museum
