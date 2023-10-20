@@ -25,7 +25,7 @@ author_profile: true
   
 - R. Qi\*, A. Joe\*, Z. Zhang, Y. Zeng, T. Zheng, Q. Feng, E. Regan, **J. Xie**, Z. Lu, T. Taniguchi, K. Watanabe, S. Tongay, M. Crommie, A. MacDonald, F. Wang, “Thermodynamic behavior of correlated electron-hole fluids in van der Waals heterostructures”, *arXiv*:2306.13265.
   
-- R. Qi\*, A. Joe\*, Z. Zhang, **J. Xie**, Q. Feng, Z. Lu, Z. Wang, T. Taniguchi, K. Watanabe, S. Tongay, F. Wang, “Perfect Coulomb drag and exciton transport in an excitonic insulator”, manuscript submitted to *Science*.
+- R. Qi\*, A. Joe\*, Z. Zhang, **J. Xie**, Q. Feng, Z. Lu, Z. Wang, T. Taniguchi, K. Watanabe, S. Tongay, F. Wang, “Perfect Coulomb drag and exciton transport in an excitonic insulator”, manuscript under review at *Science*.
   
 - **J. Xie**\*, Z. Zhang\*, H. Zhang\*, V. Nagarajan, W. Zhao, H Kim, C. Sanborn, R. Qi, S. Chen, S. Kahn, K. Watanabe, T. Taniguchi, A. Zettl, M. Crommie, J. Analytis, F. Wang, “Low Resistance Ohmic Contact to P-type Monolayer WSe2”, manuscript under review at *Nature*.
   
