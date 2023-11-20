@@ -27,7 +27,7 @@ author_profile: true
   
 - R. Qi\*, A. Joe\*, Z. Zhang, **J. Xie**, Q. Feng, Z. Lu, Z. Wang, T. Taniguchi, K. Watanabe, S. Tongay, F. Wang, “Perfect Coulomb drag and exciton transport in an excitonic insulator”, manuscript under review at *Science*.
   
-- **J. Xie**\*, Z. Zhang\*, H. Zhang\*, V. Nagarajan, W. Zhao, H Kim, C. Sanborn, R. Qi, S. Chen, S. Kahn, K. Watanabe, T. Taniguchi, A. Zettl, M. Crommie, J. Analytis, F. Wang, “Low Resistance Ohmic Contact to P-type Monolayer WSe2”, manuscript under review at *Nature*.
+- **J. Xie**\*, Z. Zhang\*, H. Zhang\*, V. Nagarajan, W. Zhao, H Kim, C. Sanborn, R. Qi, S. Chen, S. Kahn, K. Watanabe, T. Taniguchi, A. Zettl, M. Crommie, J. Analytis, F. Wang, “Low Resistance Ohmic Contact to P-type Monolayer WSe2”, manuscript under review at *Nano Letters*.
   
 - J. Chen\*, B. Lyu\*, S. Lou, X. Zhou, T. Wu, **J. Xie**, Y. Chen, C Hu, K. Watanabe, T. Taniguchi, G. Xie, M. Liao, W. Yang, G. Zang, B. Wei, X. Wang, Q. Liang, G. Wang, J. Ma, D. Qian, G. Chen, T. Li, M. Qin, X. Xu, Z. Shi, “Tunable Luttinger liquid and Mott states in one-dimensional moiré superlattices”, manuscript under review at *Nature Nanotechnology*.
   
