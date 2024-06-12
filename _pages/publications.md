@@ -37,7 +37,7 @@ author_profile: true
 
 - Z. Zhang\*, **J. Xie**\*, W. Zhao, C. Sanborn, S. Wang, S. Kahn, K. Watanabe, T. Taniguchi, A. Zettl, M. Crommie, F. Wang, “Engineering correlated insulators in bilayer graphene with a remote Coulomb superlattice”, ***Nature Materials*** 23, 189–195 (2024).
 
-- R. Qi\*, A. Joe\*, Z. Zhang, Y. Zeng, T. Zheng, Q. Feng, E. Regan, **J. Xie**, Z. Lu, T. Taniguchi, K. Watanabe, S. Tongay, M. Crommie, A. MacDonald, F. Wang, “Thermodynamic behavior of correlated electron-hole fluids in van der Waals heterostructures”, *Nature Communications* 14, 8264 (2023).
+- R. Qi\*, A. Joe\*, Z. Zhang, Y. Zeng, T. Zheng, Q. Feng, E. Regan, **J. Xie**, Z. Lu, T. Taniguchi, K. Watanabe, S. Tongay, M. Crommie, A. MacDonald, F. Wang, “Thermodynamic behavior of correlated electron-hole fluids in van der Waals heterostructures”, ***Nature Communications*** 14, 8264 (2023).
 
 - X. Zhou\*, **J. Xie**\*, G. Li\*, J. Zhang, M. Xia, W. Luo, Z. Shi, “Moiré-induced band-gap opening in one-dimensional superlattices of carbon nanotubes on hexagonal boron nitride”, ***Phys. Rev. B*** 105, 115433 (2022).
 
