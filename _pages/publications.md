@@ -21,7 +21,7 @@ author_profile: true
 
 ## Preprints
   
-- R. Qi\*, A. Joe\*, Z. Zhang, Y. Zeng, T. Zheng, Q. Feng, E. Regan, **J. Xie**, Z. Lu, T. Taniguchi, K. Watanabe, S. Tongay, M. Crommie, A. MacDonald, F. Wang, “Thermodynamic behavior of correlated electron-hole fluids in van der Waals heterostructures”, manuscript under review at ***Science***.
+- R. Qi, Q. Li, Z. Zhang, S. Chen, **J. Xie**, Y. Ou, Z. Cui, D. Dai, A. Joe, T. Taniguchi, K. Watanabe, S. Tongay, A. Zettl, L. Fu, F. Wang, “Electrically controlled interlayer trion fluid in electron-hole bilayers”, manuscript under review at ***Science***.
   
 - R. Qi\*, A. Joe\*, Z. Zhang, **J. Xie**, Q. Feng, Z. Lu, Z. Wang, T. Taniguchi, K. Watanabe, S. Tongay, F. Wang, “Perfect Coulomb drag and exciton transport in an excitonic insulator”, manuscript under review at ***Science***.
   
