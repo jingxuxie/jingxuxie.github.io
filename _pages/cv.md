@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * B.S. in Physics, Xi'an Jiaotong University, 2021
-* Ph.D. Candidate in Applied Science and Technology, University of California, Berkeley, 2025 (expected)
+* Ph.D. Candidate in Applied Science and Technology, University of California, Berkeley, 2025
 
 Publications
 ======
@@ -64,10 +64,3 @@ Service and leadership
 ======
 * Supply chain manager
 * Undergraduate research mentor
-* Volunteer at local elementary schools
-* Volunteer at Shaanxi History Museum
-
-Hobbies
-======
-* Table football
-* Robots

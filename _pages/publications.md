@@ -19,17 +19,13 @@ author_profile: true
 
 #### * denotes equal contribution
 
-## Preprints
-  
-- R. Qi, Q. Li, Z. Zhang, S. Chen, **J. Xie**, Y. Ou, Z. Cui, D. Dai, A. Joe, T. Taniguchi, K. Watanabe, S. Tongay, A. Zettl, L. Fu, F. Wang, “Electrically controlled interlayer trion fluid in electron-hole bilayers”, manuscript under review at ***Science***.
-  
-- R. Qi\*, A. Joe\*, Z. Zhang, **J. Xie**, Q. Feng, Z. Lu, Z. Wang, T. Taniguchi, K. Watanabe, S. Tongay, F. Wang, “Perfect Coulomb drag and exciton transport in an excitonic insulator”, manuscript under review at ***Science***.
-  
-- J. Chen\*, B. Lyu\*, S. Lou, X. Zhou, T. Wu, **J. Xie**, Y. Chen, C Hu, K. Watanabe, T. Taniguchi, G. Xie, M. Liao, W. Yang, G. Zang, B. Wei, X. Wang, Q. Liang, G. Wang, J. Ma, D. Qian, G. Chen, T. Li, M. Qin, X. Xu, Z. Shi, “Tunable Luttinger liquid and Mott states in one-dimensional moiré superlattices”, manuscript under review at ***Nature Nanotechnology***.
-  
 
 
-## Journal Paper
+- **J. Xie**, D. Xu, X. Zhso, D.Song, Agentsynth: Scalable task generation for generalist computer-use agents, **ICLR** (2026).
+
+- R. Qi, Q. Li, Z. Zhang, S. Chen, **J. Xie**, Y. Ou, Z. Cui, D. Dai, A. Joe, T. Taniguchi, K. Watanabe, S. Tongay, A. Zettl, L. Fu, F. Wang, “Electrically controlled interlayer trion fluid in electron-hole bilayers”, manuscript under review at ***Science*** (2025).
+  
+- R. Qi\*, A. Joe\*, Z. Zhang, **J. Xie**, Q. Feng, Z. Lu, Z. Wang, T. Taniguchi, K. Watanabe, S. Tongay, F. Wang, “Perfect Coulomb drag and exciton transport in an excitonic insulator”, manuscript under review at ***Science*** (2025).
 
 - **J. Xie**\*, Z. Zhang\*, H. Zhang\*, V. Nagarajan, W. Zhao, H Kim, C. Sanborn, R. Qi, S. Chen, S. Kahn, K. Watanabe, T. Taniguchi, A. Zettl, M. Crommie, J. Analytis, F. Wang, “Low Resistance Ohmic Contact to P-type Monolayer WSe2”, ***Nano Letters*** (2024).
 
