@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="A controlled SO-101 study of visual matching, goal coverage, and sim-to-real generalization with ACT and pi0.5."><title>Learning Pick-and-Place in Simulation · Jingxu Xie</title><link rel="stylesheet" href="style.css"></head>
+<body><a class="skip" href="#results">Skip to results</a>
+<header><a class="brand" href="https://jingxuxie.com/">Jingxu Xie <span>/ Research notes</span></a><nav aria-label="Sections"><a href="#matching">Setup</a><a href="#transfer">Transfer gap</a><a href="#real">Training data</a><a href="#results">Results</a></nav></header>
+<main>
+<section class="hero wrap"><p class="eyebrow">SO-101 · Imitation learning · September 2026</p>
+<h1>How simulations help<br><em>a real robot learn?</em></h1><p class="lede">We test whether simulated demonstrations help an arm place a box at targets it has rarely seen in real dataset.</p>
+<p class="byline">Jingxu Xie <span>•</span> ACT &amp; π0.5</p>
+<div class="hero-rule"><p><strong>01</strong> Match the scene.</p>
+<p><strong>02</strong> Vary the training data.</p>
+<p><strong>03</strong> Test both directions.</p>
+</div>
+</section>
+<section class="intro wrap"><p class="section-number">THE QUESTION</p>
+<div><h2>Can the arm succeed<br>an unseen target position?</h2><p>The task is simple: pick up the blue box and place it on the white paper. We move the paper between left and right to test whether the arm follows the target or repeats its training behavior.</p>
+<aside class="finding"><strong>Main results</strong>
+<ul>
+<li>Success in simulation does not guarantee success on the real robot, even when the scenes look similar.</li>
+<li>Combining simulated and real demonstrations improves performance when real data is limited.</li>
+<li>Broader training coverage helps the robot succeed across different target positions.</li>
+</ul>
+<a href="#results">See the results ↓</a></aside></div>
+</section>
+<section id="matching" class="wrap chapter">
+<div class="chapter-head"><p class="section-number">01 / MATCH THE REAL SETUP</p>
+<h2>Match the scene<br>and camera views.</h2><p>We build the scene in NVIDIA Isaac Sim using measured object sizes, camera calibration, and similar textures. Both panels show the front camera and a wrist camera.</p>
+
+</div>
+<div class="paired-grid">
+<figure class="paired-comparison"><div class="media-label"><span>RIGHT-TARGET DEMONSTRATION</span><span>Real cameras ↔ Isaac Sim</span></div>
+<video controls playsinline muted preload="none" poster="assets/training-pair-right.jpg" src="assets/training-pair-right.mp4" aria-label="Right-placement training demonstration and Isaac Sim side by side with wrist insets and shared timer"></video><figcaption>Target on the right: the arms picks up a box and place it on the paper. The simulation follows roughly the same timing as the real demonstration.</figcaption></figure>
+<figure class="paired-comparison"><div class="media-label"><span>LEFT-TARGET DEMONSTRATION</span><span>Real cameras ↔ Isaac Sim</span></div>
+<video controls playsinline muted preload="none" poster="assets/training-pair-left.jpg" src="assets/training-pair-left.mp4" aria-label="Left-placement training demonstration and Isaac Sim side by side with wrist insets and shared timer"></video><figcaption>Target on the left: the same task in the other direction. Both videos play at their original speed.</figcaption></figure>
+</div>
+
+<p>The reconstruction is close, but differences from the real scene remain. We use domain randomization when collecting simulation data to cover a wider range of appearances and scene settings.</p>
+<aside class="finding"><strong>Code-as-policy</strong><p>We also tried using GPT-6 to write a pick-and-place script using RGB and depth cameras as inputs, reaching a success rate of 98%.</p></aside>
+
+</section>
+<section id="transfer" class="wrap chapter">
+<div class="chapter-head"><p class="section-number">02 / TEST ON THE REAL ARM</p>
+<h2>The target moves left.<br>The arm still goes right.</h2><p><b>Real-right</b> and <b>real-left</b> are real demonstrations with the paper on the right or left. <b>Sim-right</b> and <b>sim-left</b> are simulated demonstrations of those tasks. Left and right refer to the paper's position in the front-camera view.</p>
+<p>First, we train on real-right + sim-right + sim-left, with no real-left data. The hope is to transfer the left-target behavior learned in simulation to the real arm. Yet in the real test below, the arm moves right even when the paper is on the left, and the arm moves correctly in simulation, suggesting that the policy still responds differently to real and simulated images, despite their visual similarity.</p>
+</div>
+<figure class="observer-feature"><div class="media-label"><span>REAL-RIGHT + SIM-RIGHT + SIM-LEFT</span><span>autonomous 1x</span></div>
+<video controls playsinline muted preload="none" poster="assets/mixed00.jpg" src="assets/mixed00.mp4" aria-label="Captioned real-arm trial: right placement followed by a left target but rightward carry"></video><figcaption><b>Watch the second attempt.</b> After a successful right placement, the operator moves the target paper left. The arm picks up again but carries the box right.</figcaption></figure>
+
+<div id="gap" class="domain-evidence"><p class="eyebrow">WHY MIGHT TRANSFER FAIL?</p>
+<h2>The model still sees<br>huge differences.</h2><p class="wide-copy">Images can look similar to us but different to the model. A simple classifier could tell real from simulated inputs using model's internal features</p>
+<div class="feature-grid"><figure><img src="assets/representation.svg" alt="Real and simulated observation features projected into a shared UMAP embedding" loading="lazy"><figcaption>Each point shows an input in a two-dimensional view of its internal features.</figcaption></figure>
+<div><div class="big-stat">100<span>%</span></div>
+<p>accuracy at telling real and simulated image inputs apart</p>
+<div class="small-stat">84.0% <span>using joint state alone</span></div>
+<p>Arm poses and movements also differ between real and simulated demonstrations. Image appearance is not the only possible cause.</p>
+
+
+</section>
+
+<section id="real" class="wrap chapter"><div class="chapter-head"><p class="section-number">03 / VARY THE TRAINING DATA</p>
+<h2>How much real-left data<br>do we need?</h2><p>We use <b>all the available real-right training data</b> and vary the amount of real-left data. For each left-data level, we train one model with real data only and one with added simulation.</p>
+</div>
+<p>Each model uses the same <b>72 real-right demonstrations</b>, plus <b>8, 32, or 72 real-left demonstrations</b>. We call these left-data levels 10%, 40%, and 90% of the original 80 demonstrations.</p>
+<div class="table-scroll"><table><thead><tr><th scope="col">Training group</th><th scope="col">Real-right</th><th scope="col">Real-left</th><th scope="col">Simulation</th></tr></thead><tbody>
+<tr><th scope="row">Real only · 10% / 40% / 90% left</th><td>72 episodes (fixed)</td><td>8 / 32 / 72 episodes</td><td>None</td></tr>
+<tr><th scope="row">Real + sim · 10% / 40% / 90% left</th><td>72 episodes (fixed)</td><td>Same 8 / 32 / 72 episodes</td><td>90 left + 90 right</td></tr>
+</tbody></table></div>
+
+<h3>What happens with just 10% real-left data?</h3><div class="video-grid"><figure><div class="media-label"><span>REAL ONLY · 10% REAL-LEFT</span><span>autonomous 1x</span></div>
+<video controls playsinline muted preload="none" poster="assets/real08.jpg" src="assets/real08-first25.mp4" aria-label="First 25 seconds of the real-only with 10% real-left trial, with external observer main view and wrist and front camera insets"></video><figcaption><b>Real data only.</b> Interestingly, with only 10% real-left data (and 100% real-right data), the arm succeeds with the target on the left but struggles with the target on the right.</figcaption></figure>
+<figure><div class="media-label"><span>REAL + SIM · 10% REAL-LEFT</span><span>autonomous 1x</span></div>
+<video controls playsinline muted preload="none" poster="assets/mixed08.jpg" src="assets/mixed08.mp4" aria-label="Real plus simulation with 10% real-left trial with external observer main view and wrist and front camera insets"></video><figcaption><b>Real data + simulation.</b> With the same 8 real-left demonstrations, it succeeds on both sides when co-training with simulation data.</figcaption></figure>
+</div>
+
+<div class="story-grid"><article><span class="tag">Other observations</span><h3>Adding more real-left data</h3><p>Better behaviors are observed on both sides with 40% and 90% real-left data. .</p>
+</article></div>
+<div id="mechanism" class="mechanism-section">
+<p class="eyebrow">A POSSIBLE EXPLANATION · STABLE HOVERING WITH NOISE</p>
+<h3>The model may aim for the wrong position.</h3>
+<p>Why might adding a few left demonstrations hurt right-side performance? This toy model offers one possible explanation: the policy learns to aim between the targets. Position feedback then keeps it near that middle point, even with noise. This is a hypothesis, not a diagnosis of ACT.</p>
+<h4>1. The model may learn the scene instead of the target.</h4>
+<p>The model has two pieces of information: where the paper is, and what the surrounding scene looks like. If left targets always appear in one type of scene and right targets in another, either can explain the demonstrations. The model may use both to choose a destination instead of relying only on the paper's position.</p>
+<p>The toy represents these as two numbers: <i>G</i> is the paper's side, and <i>Z</i> is the side usually associated with that scene. Both are −1 for left or +1 for right. These are simplified inputs, not actual camera images.</p>
+<p>With only right examples, the model can always choose right. A few left examples rule out that answer, but may not reveal which information to trust. In this toy, the fit gives both equal weight and predicts:</p>
+<div class="toy-equation">m ≈ ½G + ½Z</div>
+<p>Here <i>m</i> is the chosen destination. If the paper is on the right (<i>G</i> = +1), but the scene looks like the left examples (<i>Z</i> = −1), the result is zero: the middle. The same problem can happen on either side.</p>
+<h4>2. The controller keeps returning to the middle.</h4>
+<p>The controller moves toward its chosen destination and corrects small movements away from it. In the simplified case without noise or speed limiting:</p>
+<div class="toy-equation">next error = 0.8 × current error</div>
+<p>“Error” means the distance from the chosen destination, not from the paper. Each step reduces it by 20%. If the model chose the middle, the controller keeps returning there. The tests below add noise and small offsets to check whether this hovering persists.</p>
+<h4>How to read the figure</h4>
+<p><b>The paper and scene suggest opposite directions.</b> A and C put the paper on the left in a scene associated with right-side examples. B and D reverse this. Positions and noise levels are toy numbers, not centimeters or camera pixels.</p>
+<p>The top row compares three ways to use noisy inputs: keep their values, reduce them to left/right choices, or use those choices after dropping uncertain training examples. Dropping examples is a training step, not a rule that tells the controller to stop.</p>
+<figure><img src="assets/robust-hover.svg" alt="Panels A and B show how often three versions of the toy hover as noise increases. Panels C and D show whether the controller moves toward the middle or the paper."><figcaption><b>A–B: Does hovering survive noise?</b> The training examples cover the same situations, while noise added to inputs and training answers increases. Higher curves mean more trials get stuck near the middle—not better performance.<br><b>C–D: Where does the controller go?</b> Noise is fixed at 0.4 and every trial starts at position 0.4. With 10% left data, the orange line returns to the middle. With 90% left data or varied simulation, the blue and green lines reach the dashed target and largely overlap. Lines show average positions; shaded bands contain the middle 90% of trajectories. These are toy results, not robot success rates.</figcaption></figure>
+<h3>More diverse examples can remove the hover.</h3>
+<p>Examples with the same background but different paper positions help the model learn where to place the box: on the paper, regardless of the background. In the main test, the small left subset has no such examples; the full left set adds four. Varied simulation also adds them, allowing the model to learn <i>m</i> ≈ <i>G</i>. Simulation that repeats the old combinations does not resolve the problem.</p>
+<p>When the paper and scene suggest opposite directions, the small-data model hovers in 97.3% of left trials and 97.8% of right trials at noise level 0.4. With varied simulation, it reaches the target in 99.2% and 99.5% of those trials. Success also remains near 99% when the paper and scene suggest the same side.</p>
+<div class="results-controls">
+<label>Training data<select id="toy-condition"><option value="right_only">Right only</option><option value="real8" selected>Real only · 10% left</option><option value="real72">Real only · 90% left</option><option value="mixed_restricted">10% left + restricted simulation</option><option value="mixed_diverse">10% left + varied simulation</option></select></label>
+<label>Input and training-answer noise<select id="toy-noise"><option value="0">0 · none</option><option value="0.1">0.1</option><option value="0.2">0.2</option><option value="0.3">0.3</option><option value="0.4" selected>0.4</option><option value="0.6">0.6</option><option value="0.8">0.8</option></select></label>
+<label>How the training examples are chosen<select id="toy-support"><option value="constructed">Small set misses the key examples</option><option value="random_bridge">Key examples occur at random</option></select></label>
+</div>
+<div id="toy-output" class="toy-output" aria-live="polite"></div>
+<p class="caption-note">A “left-like scene” resembles the scenes associated with left targets in training; a “right-like scene” means the reverse. Either side can fail.</p>
+
+
+</div>
+</section>
+
+<section id="results" class="wrap chapter"><div class="chapter-head"><p class="section-number">04 / RESULTS</p>
+<h2>Simulation and real-world<br>results</h2><p>We separate task success in simulation, task success on the real arm, and action-prediction error on saved images.</p>
+</div>
+<div class="results-controls"><label>Policy family<select id="family"><option value="act">ACT</option><option value="pi05">π0.5 · action-expert fine-tuning</option></select></label><label>Evaluation platform<select id="domain"><option value="real" selected>Real arm</option><option value="simulation">Simulation</option></select></label></div>
+<div id="results-panel"></div>
+
+<figure id="main-plot"><img src="assets/act-real-success.svg" alt="ACT real-arm left and right placement success with 95% Wilson confidence intervals" loading="lazy"></figure>
+
+<p class="caption-note">π0.5 was fine-tuned for 20,000 steps. Only its action expert was trained; the vision-language model stayed fixed.</p>
+</section>
+<section class="chapter conclusion"><div class="wrap"><p class="section-number">05 / TAKEAWAYS</p>
+<h2>Simulation helps.<br>Real-world tests still matter.</h2><div class="three-notes"><div><h3>Match more than appearance</h3><p>Similar camera views can still lead to different behavior. Visual matching alone does not close the sim-to-real gap.</p>
+</div>
+<div><h3>Combine real and simulated data</h3><p>Simulation improves real-arm success when paired with a small set of real demonstrations.</p>
+</div>
+<div><h3>Test beyond this setup</h3><p>Next, test new object positions, lighting, and camera views to see how well the gains transfer.</p>
+</div>
+</div></div>
+</section>
+
+</main><footer class="wrap"><a href="https://jingxuxie.com/">Jingxu Xie</a><span>SO-101 sim2real generalization study, September 2026</span><button type="button" id="print-report">Print / save PDF</button></footer>
+<script src="data.js"></script><script src="real-results.js"></script><script src="robust-toy-data.js"></script><script src="app.js"></script></body></html>
