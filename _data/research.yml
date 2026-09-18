@@ -1,0 +1,85 @@
+# Display order is intentional. Descriptions are optional.
+# Preserve author order and equal-contribution markers when editing.
+# Thumbnail sources (unmodified figures/poster):
+# agentsynth.png: https://github.com/sunblaze-ucb/AgentSynth/blob/main/Pipeline4.png
+# so101.jpg: https://jingxuxie.com/so101/assets/training-pair-right.jpg
+# wse2.jpg: embedded Figure 1 image, page 13 of https://arxiv.org/pdf/2312.04849
+# coulomb.png: Figure 1 of https://doi.org/10.1038/s41563-023-01754-3
+# nanoribbons.png: Figure 1 of https://doi.org/10.1038/s41586-024-07243-0
+- id: agentsynth
+  category: ml
+  featured: true
+  title: "AgentSynth: Scalable Task Generation for Generalist Computer-Use Agents"
+  authors: "**Jingxu Xie**, Dylan Xu, Xuandong Zhao, Dawn Song"
+  venue: ICLR
+  year: 2026
+  description: "Generating long-horizon computer-use tasks by composing verified subtasks, with controllable difficulty for agent evaluation."
+  image: /images/research/agentsynth.png
+  alt: "AgentSynth pipeline connecting task proposal, execution, verification, and task summarization."
+  url: https://arxiv.org/abs/2506.14205
+  links:
+    - label: Paper
+      url: https://arxiv.org/abs/2506.14205
+    - label: Code & data
+      url: https://github.com/sunblaze-ucb/AgentSynth
+
+- id: so101
+  category: ml
+  featured: true
+  title: "When Does Simulation Help Real-Robot Adaptation?"
+  authors: "**Jingxu Xie**"
+  venue: Independent project
+  year: 2026
+  description: "A hands-on SO-101 manipulation study using ACT and π0.5 to explore how simulated demonstrations interact with limited real-world task coverage."
+  image: /images/research/so101.jpg
+  alt: "A paired real and simulated SO-101 manipulation demonstration."
+  url: https://jingxuxie.com/so101/
+  links:
+    - label: Project report
+      url: https://jingxuxie.com/so101/
+
+- id: wse2
+  category: physics
+  title: "Low Resistance Contact to P-Type Monolayer WSe₂"
+  authors: "**Jingxu Xie**\\*, Zuocheng Zhang\\*, Haodong Zhang\\*, et al."
+  venue: Nano Letters
+  year: 2024
+  description: "Charge-transfer doping at a van der Waals interface enables low-resistance contacts for atomically thin p-type transistors."
+  image: /images/research/wse2.jpg
+  alt: "Band alignment, device cross section, and microscope image of a WSe2 and alpha-RuCl3 heterostructure."
+  url: https://doi.org/10.1021/acs.nanolett.3c04195
+  links:
+    - label: Paper
+      url: https://doi.org/10.1021/acs.nanolett.3c04195
+    - label: arXiv
+      url: https://arxiv.org/abs/2312.04849
+
+- id: coulomb
+  category: physics
+  title: "Engineering correlated insulators in bilayer graphene with a remote Coulomb superlattice"
+  authors: "Zuocheng Zhang\\*, **Jingxu Xie**\\*, Wenyu Zhao, et al."
+  venue: Nature Materials
+  year: 2024
+  description: "A remote charge superlattice provides a tunable route to correlated electronic states in bilayer graphene."
+  image: /images/research/coulomb.png
+  alt: "Device geometry and remote Coulomb superlattice used to control bilayer graphene."
+  url: https://doi.org/10.1038/s41563-023-01754-3
+  links:
+    - label: Paper
+      url: https://doi.org/10.1038/s41563-023-01754-3
+
+- id: nanoribbons
+  category: physics
+  title: "Graphene nanoribbons grown in hBN stacks for high-performance electronics"
+  authors: "Bosai Lyu\\*, Jiajun Chen\\*, Sen Wang\\*, Shuo Lou\\*, Peiyue Shen\\*, **Jingxu Xie**\\*, Lu Qiu\\*, et al."
+  venue: Nature
+  year: 2024
+  description: "Growing long, aligned graphene nanoribbons inside hexagonal boron nitride stacks for electronic devices."
+  image: /images/research/nanoribbons.png
+  alt: "Schematic and microscopy of graphene nanoribbons grown inside hexagonal boron nitride."
+  url: https://doi.org/10.1038/s41586-024-07243-0
+  links:
+    - label: Paper
+      url: https://doi.org/10.1038/s41586-024-07243-0
+    - label: arXiv
+      url: https://arxiv.org/abs/2403.11465

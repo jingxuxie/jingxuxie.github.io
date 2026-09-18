@@ -1,0 +1,15 @@
+{% assign work = include.work %}
+<article class="research-row" id="{{ work.id }}">
+  <div class="research-image">
+    <img src="{{ work.image | relative_url }}" alt="{{ work.alt | escape }}" width="640" height="420" loading="lazy" decoding="async">
+  </div>
+  <div class="research-copy">
+    <p class="research-venue">{{ work.venue }} <span aria-hidden="true">·</span> {{ work.year }}</p>
+    <h3><a href="{{ work.url | escape }}">{{ work.title }}</a></h3>
+    <div class="research-authors">{{ work.authors | markdownify }}</div>
+    {% if work.description %}<p class="research-description">{{ work.description }}</p>{% endif %}
+    <div class="research-links" aria-label="Resources for {{ work.title | escape }}">
+      {% for link in work.links %}<a href="{{ link.url | escape }}">{{ link.label }}<span class="sr-only">: {{ work.title }}</span><span aria-hidden="true"> ↗</span></a>{% endfor %}
+    </div>
+  </div>
+</article>
