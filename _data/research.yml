@@ -97,7 +97,7 @@
   category: "workshop"
   title: "The Autoresearcher Intern: Evidence-Gated Human-AI Collaboration for Scientific Workflow Automation"
   authors: "**Jingxu Xie**"
-  venue: "COLM LM4Sci"
+  venue: "COLM LM4Sci workshop"
   year: 2026
   description: "A repository-centered workflow for human–AI scientific prototyping, with evidence gates and auditable experiment records."
   url: "https://openreview.net/forum?id=H5GxPujneF"
@@ -110,7 +110,7 @@
   category: "workshop"
   title: "Pseudonymized but Linkable: Cross-Document Re-identification Risks in LLM-Ready Sensitive Text Corpora"
   authors: "**Jingxu Xie**"
-  venue: "COLM Re-Data"
+  venue: "COLM Re-Data workshop"
   year: 2026
   description: "Studying how repeated details can link identities across pseudonymized documents, and how corpus-aware generalization can reduce that risk."
   image: "/images/research/pseudonymized-fig1.png"
@@ -122,7 +122,7 @@
   category: "workshop"
   title: "Ask, Don't Guess: Learning When to Clarify in Situated Instruction Following"
   authors: "**Jingxu Xie**"
-  venue: "COLM LSEI"
+  venue: "COLM LSEI workshop"
   year: 2026
   description: "Learning when a clarification question is worth asking by balancing useful information against interruption and error costs."
   image: "/images/research/clarify-fig1.png"
