@@ -80,7 +80,7 @@
   category: "workshop"
   title: "The Autoresearcher Intern: Evidence-Gated Human-AI Collaboration for Scientific Workflow Automation"
   authors: "**Jingxu Xie**"
-  venue: "COLM Workshop · LM4Sci"
+  venue: "COLM LM4Sci"
   year: 2026
   description: "A repository-centered workflow for human–AI scientific prototyping, with evidence gates and auditable experiment records."
   url: "https://openreview.net/forum?id=H5GxPujneF"
@@ -96,7 +96,7 @@
   category: "workshop"
   title: "Pseudonymized but Linkable: Cross-Document Re-identification Risks in LLM-Ready Sensitive Text Corpora"
   authors: "**Jingxu Xie**"
-  venue: "COLM Workshop · Re-Data"
+  venue: "COLM Re-Data"
   year: 2026
   description: "Studying how repeated details can link identities across pseudonymized documents, and how corpus-aware generalization can reduce that risk."
   links:
@@ -111,7 +111,7 @@
   category: "workshop"
   title: "Do Agents Learn Pragmatics, or Just Their Partner? Cross-Play Evaluation of Communicative Self-Play in Situated Reference Games"
   authors: "**Jingxu Xie**"
-  venue: "COLM Workshop · LSEI"
+  venue: "COLM LSEI"
   year: 2026
   description: "Cross-play evaluation tests whether communicative self-play transfers to unfamiliar listeners or depends on a particular partner."
   links:
@@ -126,7 +126,7 @@
   category: "workshop"
   title: "Ask, Don't Guess: Learning When to Clarify in Situated Instruction Following"
   authors: "**Jingxu Xie**"
-  venue: "COLM Workshop · LSEI"
+  venue: "COLM LSEI"
   year: 2026
   description: "Learning when a clarification question is worth asking by balancing useful information against interruption and error costs."
   links:
@@ -141,7 +141,7 @@
   category: "workshop"
   title: "Do Not Let English Judge the World: Protocol Sensitivity in Multilingual LLM-as-a-Judge Evaluation"
   authors: "**Jingxu Xie**"
-  venue: "COLM Workshop · GenAI4World"
+  venue: "COLM GenAI4World"
   year: 2026
   description: "Examining how rubric language, translation, and bilingual judging change multilingual evaluation outcomes."
   links:

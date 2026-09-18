@@ -12,11 +12,6 @@
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header wrap">
-    <a class="site-name" href="{{ '/' | relative_url }}">Jingxu Xie</a>
-    <nav aria-label="Main navigation">
-      {% for item in site.data.navigation.main %}
-      <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
-      {% endfor %}
       <label class="appearance-control" hidden>
         <span class="sr-only">Appearance</span>
         <select id="appearance" aria-label="Appearance">
@@ -25,7 +20,6 @@
           <option value="dark">Dark mode</option>
         </select>
       </label>
-    </nav>
   </header>
   <main id="main" class="wrap" tabindex="-1">{{ content }}</main>
   <footer class="site-footer wrap">

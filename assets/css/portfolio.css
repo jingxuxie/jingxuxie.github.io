@@ -14,7 +14,7 @@ h2{font-size:23px;font-weight:620;margin:0}
 h3,h4{font-size:19px;font-weight:650;margin:3px 0 8px}
 img{max-width:100%;display:block}
 .wrap{width:min(960px,calc(100% - 64px));margin-inline:auto}
-.site-header{display:flex;align-items:center;justify-content:space-between;padding-block:29px;border-bottom:1px solid var(--line);gap:24px}
+.site-header{display:flex;align-items:center;justify-content:flex-end;padding-block:29px;border-bottom:1px solid var(--line);gap:24px}
 .site-name{font-size:19px;font-weight:650;color:var(--ink);letter-spacing:-.02em}
 nav{display:flex;align-items:center;gap:24px}
 nav a{color:var(--muted);font-size:15px;padding-block:5px}
