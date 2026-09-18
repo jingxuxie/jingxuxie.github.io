@@ -1,8 +1,8 @@
 # Display order within each category is intentional; descriptions and images are optional.
 # Preserve author order and verified equal-contribution markers when editing.
-# Thumbnails are original paper/project figures, displayed without cropping.
+# Thumbnails use original paper/project figures; any excerpt is noted below.
 # agentsynth.png: https://github.com/sunblaze-ucb/AgentSynth/blob/main/Pipeline4.png
-# scienceide.svg: Figure 1 of https://arxiv.org/html/2609.19134v1 (scienceide_summary.svg)
+# scienceide-evaluations.svg: Bottom coverage/evaluation section of Figure 1 of https://arxiv.org/html/2609.19134v1 (scienceide_summary.svg)
 # ale.png: https://arxiv.org/html/2606.05405v2/teaser.png
 # so101.jpg: https://jingxuxie.com/so101/assets/training-pair-right.jpg
 # wse2.jpg: embedded Figure 1, page 13 of https://arxiv.org/pdf/2312.04849
@@ -64,10 +64,10 @@
   venue: "arXiv preprint"
   year: 2026
   description: "Turning scientific codebases into executable environments with expert-defined checks for training and evaluating scientific agents."
-  image: "/images/research/scienceide.svg"
-  alt: "ScienceIDE overview connecting scientific codebases, verified tasks, agent learning, and scientific evaluation."
+  image: "/images/research/scienceide-evaluations.svg"
+  alt: "ScienceIDE scientific-domain coverage and agent evaluation results on ScienceIDE-Hard."
   image_width: 702
-  image_height: 1050
+  image_height: 398
   url: "https://arxiv.org/abs/2609.19134v1"
   links:
     - label: "Paper"
