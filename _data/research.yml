@@ -8,15 +8,21 @@
 # coulomb.png: Figure 1 of https://doi.org/10.1038/s41563-023-01754-3
 # nanoribbons.png: Figure 1 of https://doi.org/10.1038/s41586-024-07243-0
 # condensates.png: Figure 1 of https://doi.org/10.1038/s41586-026-10636-y
-# quantum-hall.png: Figure 1 of https://doi.org/10.1038/s41563-025-02316-5
 # trion.jpg: embedded Figure 1, page 13 of https://arxiv.org/pdf/2312.03251
-# drag.webp: unmodified featured figure from https://joelab.ucr.edu/news/250418/
 # thermodynamics.png: Figure 1 of https://doi.org/10.1038/s41467-023-43799-7
 # flat-bands.png: Figure 1 of https://doi.org/10.1038/s41563-021-00923-6
 # discharge.png: Figure 1 of https://doi.org/10.1038/s41567-021-01324-x
 # Workshop acceptances checked in the author's OpenReview profile on 2026-09-17.
 # Use Request paper while a workshop submission is not publicly accessible.
 # ALE is listed as a project contribution, not an authorship claim for its paper.
+
+# autoresearcher-fig1.png: Figure 1, page 4 of supplied autoresearcher.pdf
+# pseudonymized-fig1.png: Figure 1, page 2 of supplied cross-linkage.pdf
+# pragmatics-fig1.png: Figure 1, page 2 of supplied cross-play.pdf
+# clarify-fig1.png: Figure 1, page 2 of supplied ask_dont_guess.pdf
+# multilingual-judge-fig1.png: Figure 1, page 2 of supplied global_judge.pdf
+# optical-fig1.jpg: Figure 1 of https://doi.org/10.1126/sciadv.ads4224 (Europe PMC archive PMC11784804)
+# drag-fig1.png: Figure 1, page 12 of https://arxiv.org/pdf/2309.15357
 
 - id: "agentsynth"
   category: "ml"
@@ -38,8 +44,8 @@
 
 - id: "ale"
   category: "ml"
-  title: "Agents’ Last Exam (ALE)"
-  authors: "**Role:** Core contributor and domain lead"
+  title: "Agents’ Last Exam (ALE v2)"
+  authors: "Core contributor"
   venue: "Research collaboration"
   year: 2026
   description: "A benchmark of long-horizon professional tasks with verifiable outcomes, built to evaluate agents on real-world work."
@@ -74,57 +80,77 @@
   category: "workshop"
   title: "The Autoresearcher Intern: Evidence-Gated Human-AI Collaboration for Scientific Workflow Automation"
   authors: "**Jingxu Xie**"
-  venue: "COLM Workshop · LM4Sci · Accepted"
+  venue: "COLM Workshop · LM4Sci"
   year: 2026
   description: "A repository-centered workflow for human–AI scientific prototyping, with evidence gates and auditable experiment records."
   url: "https://openreview.net/forum?id=H5GxPujneF"
   links:
     - label: "OpenReview"
       url: "https://openreview.net/forum?id=H5GxPujneF"
+  image: "/images/research/autoresearcher-fig1.png"
+  alt: "Human scientist, repository, and planning, execution, review, and checkpoint roles in the autoresearcher workflow."
+  image_width: 1491
+  image_height: 1055
 
 - id: "pseudonymized"
   category: "workshop"
   title: "Pseudonymized but Linkable: Cross-Document Re-identification Risks in LLM-Ready Sensitive Text Corpora"
   authors: "**Jingxu Xie**"
-  venue: "COLM Workshop · Re-Data · Accepted"
+  venue: "COLM Workshop · Re-Data"
   year: 2026
   description: "Studying how repeated details can link identities across pseudonymized documents, and how corpus-aware generalization can reduce that risk."
   links:
     - label: "Request paper"
       url: "mailto:jingxuxie@berkeley.edu?subject=Paper%20request%3A%20Pseudonymized%20but%20Linkable%3A%20Cross-Document%20Re-identification%20Risks%20in%20LLM-Ready%20Sensitive%20Text%20Corpora"
+  image: "/images/research/pseudonymized-fig1.png"
+  alt: "Cross-document linkage attacks and the LinkGuard corpus-aware defense."
+  image_width: 1491
+  image_height: 1055
 
 - id: "pragmatics"
   category: "workshop"
   title: "Do Agents Learn Pragmatics, or Just Their Partner? Cross-Play Evaluation of Communicative Self-Play in Situated Reference Games"
   authors: "**Jingxu Xie**"
-  venue: "COLM Workshop · LSEI · Accepted"
+  venue: "COLM Workshop · LSEI"
   year: 2026
   description: "Cross-play evaluation tests whether communicative self-play transfers to unfamiliar listeners or depends on a particular partner."
   links:
     - label: "Request paper"
       url: "mailto:jingxuxie@berkeley.edu?subject=Paper%20request%3A%20Do%20Agents%20Learn%20Pragmatics%2C%20or%20Just%20Their%20Partner%3F%20Cross-Play%20Evaluation%20of%20Communicative%20Self-Play%20in%20Situated%20Reference%20Games"
+  image: "/images/research/pragmatics-fig1.png"
+  alt: "Situated reference game comparing mirror self-play and population-play message selection."
+  image_width: 1659
+  image_height: 843
 
 - id: "clarify"
   category: "workshop"
   title: "Ask, Don't Guess: Learning When to Clarify in Situated Instruction Following"
   authors: "**Jingxu Xie**"
-  venue: "COLM Workshop · LSEI · Accepted"
+  venue: "COLM Workshop · LSEI"
   year: 2026
   description: "Learning when a clarification question is worth asking by balancing useful information against interruption and error costs."
   links:
     - label: "Request paper"
       url: "mailto:jingxuxie@berkeley.edu?subject=Paper%20request%3A%20Ask%2C%20Don%27t%20Guess%3A%20Learning%20When%20to%20Clarify%20in%20Situated%20Instruction%20Following"
+  image: "/images/research/clarify-fig1.png"
+  alt: "Clarify-to-Act framework comparing the expected utility of asking a question and taking an action."
+  image_width: 1672
+  image_height: 941
 
 - id: "multilingual-judge"
   category: "workshop"
   title: "Do Not Let English Judge the World: Protocol Sensitivity in Multilingual LLM-as-a-Judge Evaluation"
   authors: "**Jingxu Xie**"
-  venue: "COLM Workshop · GenAI4World · Accepted"
+  venue: "COLM Workshop · GenAI4World"
   year: 2026
   description: "Examining how rubric language, translation, and bilingual judging change multilingual evaluation outcomes."
   links:
     - label: "Request paper"
       url: "mailto:jingxuxie@berkeley.edu?subject=Paper%20request%3A%20Do%20Not%20Let%20English%20Judge%20the%20World%3A%20Protocol%20Sensitivity%20in%20Multilingual%20LLM-as-a-Judge%20Evaluation"
+  image: "/images/research/multilingual-judge-fig1.png"
+  alt: "Five multilingual judging protocols and their effects on scores and human alignment."
+  image_width: 1672
+  image_height: 941
 
 - id: "condensates"
   category: "physics"
@@ -141,22 +167,6 @@
       url: "https://doi.org/10.1038/s41586-026-10636-y"
   image_width: 685
   image_height: 333
-
-- id: "quantum-hall"
-  category: "physics"
-  title: "Competition between excitonic insulators and quantum Hall states in correlated electron–hole bilayers"
-  authors: "Ruishi Qi, Qize Li, …, **Jingxu Xie**, et al."
-  venue: "Nature Materials"
-  year: 2026
-  description: "Mapping how magnetic fields reshape the competition between excitonic insulating and quantum Hall states."
-  url: "https://doi.org/10.1038/s41563-025-02316-5"
-  image: "/images/research/quantum-hall.png"
-  alt: "Electron–hole bilayer device and magnetic-field-dependent optical measurements."
-  links:
-    - label: "Paper"
-      url: "https://doi.org/10.1038/s41563-025-02316-5"
-  image_width: 685
-  image_height: 307
 
 - id: "trion"
   category: "physics"
@@ -184,15 +194,15 @@
   year: 2025
   description: "Optical transport measurements reveal perfect Coulomb drag in a correlated electron–hole bilayer."
   url: "https://doi.org/10.1126/science.adl1839"
-  image: "/images/research/drag.webp"
-  alt: "Measured Coulomb drag ratio near balanced electron and hole densities."
+  image: "/images/research/drag-fig1.png"
+  alt: "Electron–hole bilayer device, optical measurement setup, carrier-density maps, and equivalent transport circuit."
   links:
     - label: "Paper"
       url: "https://doi.org/10.1126/science.adl1839"
     - label: "arXiv"
       url: "https://arxiv.org/abs/2309.15357"
-  image_width: 720
-  image_height: 544
+  image_width: 1305
+  image_height: 638
 
 - id: "optical"
   category: "physics"
@@ -205,6 +215,10 @@
   links:
     - label: "Paper"
       url: "https://doi.org/10.1126/sciadv.ads4224"
+  image: "/images/research/optical-fig1.jpg"
+  alt: "Nonlinear optical microdevice array, device cross section, equivalent circuit, and optical activation principle."
+  image_width: 780
+  image_height: 692
 
 - id: "wse2"
   category: "physics"
