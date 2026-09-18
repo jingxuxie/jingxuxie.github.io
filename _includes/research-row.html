@@ -10,8 +10,10 @@
     <h{{ include.heading | default: 3 }}>{% if work.url %}<a href="{{ work.url | escape }}">{{ work.title }}</a>{% else %}{{ work.title }}{% endif %}</h{{ include.heading | default: 3 }}>
     <div class="research-authors">{{ work.authors | markdownify }}</div>
     {% if work.description %}<p class="research-description">{{ work.description }}</p>{% endif %}
+    {% if work.links.size > 0 %}
     <div class="research-links" aria-label="Resources for {{ work.title | escape }}">
       {% for link in work.links %}<a href="{{ link.url | escape }}">{{ link.label }}<span class="sr-only">: {{ work.title }}</span><span aria-hidden="true"> ↗</span></a>{% endfor %}
     </div>
+    {% endif %}
   </div>
 </article>

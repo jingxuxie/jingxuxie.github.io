@@ -13,7 +13,6 @@
 # flat-bands.png: Figure 1 of https://doi.org/10.1038/s41563-021-00923-6
 # discharge.png: Figure 1 of https://doi.org/10.1038/s41567-021-01324-x
 # Workshop acceptances checked in the author's OpenReview profile on 2026-09-17.
-# Use Request paper while a workshop submission is not publicly accessible.
 # ALE is listed as a project contribution, not an authorship claim for its paper.
 
 # autoresearcher-fig1.png: Figure 1, page 4 of supplied autoresearcher.pdf
@@ -97,9 +96,6 @@
   venue: "COLM Re-Data"
   year: 2026
   description: "Studying how repeated details can link identities across pseudonymized documents, and how corpus-aware generalization can reduce that risk."
-  links:
-    - label: "Request paper"
-      url: "mailto:jingxuxie@berkeley.edu?subject=Paper%20request%3A%20Pseudonymized%20but%20Linkable%3A%20Cross-Document%20Re-identification%20Risks%20in%20LLM-Ready%20Sensitive%20Text%20Corpora"
   image: "/images/research/pseudonymized-fig1.png"
   alt: "Cross-document linkage attacks and the LinkGuard corpus-aware defense."
   image_width: 1491
@@ -112,9 +108,6 @@
   venue: "COLM LSEI"
   year: 2026
   description: "Learning when a clarification question is worth asking by balancing useful information against interruption and error costs."
-  links:
-    - label: "Request paper"
-      url: "mailto:jingxuxie@berkeley.edu?subject=Paper%20request%3A%20Ask%2C%20Don%27t%20Guess%3A%20Learning%20When%20to%20Clarify%20in%20Situated%20Instruction%20Following"
   image: "/images/research/clarify-fig1.png"
   alt: "Clarify-to-Act framework comparing the expected utility of asking a question and taking an action."
   image_width: 1672
