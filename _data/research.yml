@@ -101,9 +101,6 @@
   year: 2026
   description: "A repository-centered workflow for human–AI scientific prototyping, with evidence gates and auditable experiment records."
   url: "https://openreview.net/forum?id=H5GxPujneF"
-  links:
-    - label: "OpenReview"
-      url: "https://openreview.net/forum?id=H5GxPujneF"
   image: "/images/research/autoresearcher-fig1.png"
   alt: "Human scientist, repository, and planning, execution, review, and checkpoint roles in the autoresearcher workflow."
   image_width: 1491
