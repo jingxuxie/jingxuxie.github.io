@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="{{ '/assets/js/theme.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+  {% include seo.html %}
+  <meta name="description" content="{{ page.excerpt | default: site.description | escape }}">
+  <link rel="icon" href="{{ '/images/favicon-32x32.png' | relative_url }}" type="image/png">
+  <link rel="stylesheet" href="{{ '/assets/css/portfolio.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+      <label class="appearance-control" hidden>
+        <span class="sr-only">Appearance</span>
+        <select id="appearance" aria-label="Appearance">
+          <option value="system">System theme</option>
+          <option value="light">Light mode</option>
+          <option value="dark">Dark mode</option>
+        </select>
+      </label>
+  </header>
+  <main id="main" class="wrap" tabindex="-1">{{ content }}</main>
+  <footer class="site-footer wrap">
+    <span>&copy; {{ site.time | date: '%Y' }} Jingxu Xie</span>
+    <a href="mailto:jingxuxie@berkeley.edu">Get in touch <span aria-hidden="true">↗</span></a>
+  </footer>
+</body>
+</html>
