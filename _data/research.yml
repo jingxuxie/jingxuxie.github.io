@@ -39,6 +39,24 @@
   image_width: 2599
   image_height: 2126
 
+- id: "ale"
+  category: "ml"
+  title: "Agents’ Last Exam (v2)"
+  authors: "Core contributor"
+  venue: "Research collaboration"
+  year: 2026
+  description: "A benchmark of long-horizon professional tasks with verifiable outcomes, built to evaluate agents on real-world work."
+  image: "/images/research/ale.png"
+  alt: "Overview of the professional domains and task structure in Agents’ Last Exam."
+  url: "https://agents-last-exam.org"
+  links:
+    - label: "Project"
+      url: "https://agents-last-exam.org"
+    - label: "Paper"
+      url: "https://arxiv.org/abs/2606.05405"
+  image_width: 2029
+  image_height: 1008
+
 - id: "scienceide"
   category: "ml"
   title: "ScienceIDE: Turning World’s Scientific Codebase into Agent Learnable Environments"
@@ -58,24 +76,6 @@
       url: "https://aitonomy.org/projects/scienceide"
     - label: "Code"
       url: "https://github.com/aitofound/ScienceIDE"
-
-- id: "ale"
-  category: "ml"
-  title: "Agents’ Last Exam (v2)"
-  authors: "Core contributor"
-  venue: "Research collaboration"
-  year: 2026
-  description: "A benchmark of long-horizon professional tasks with verifiable outcomes, built to evaluate agents on real-world work."
-  image: "/images/research/ale.png"
-  alt: "Overview of the professional domains and task structure in Agents’ Last Exam."
-  url: "https://agents-last-exam.org"
-  links:
-    - label: "Project"
-      url: "https://agents-last-exam.org"
-    - label: "Paper"
-      url: "https://arxiv.org/abs/2606.05405"
-  image_width: 2029
-  image_height: 1008
 
 - id: "so101"
   category: "ml"
