@@ -1,9 +1,9 @@
 {% assign work = include.work %}
 <article class="research-row{% unless work.image %} research-row--text{% endunless %}" id="{{ work.id }}">
   {% if work.image %}
-  <div class="research-image">
+  {% if work.url %}<a class="research-image" href="{{ work.url | escape }}" aria-label="{{ work.title | escape }}">{% else %}<div class="research-image">{% endif %}
     <img src="{{ work.image | relative_url }}" alt="{{ work.alt | escape }}"{% if work.image_width %} width="{{ work.image_width }}" height="{{ work.image_height }}"{% endif %} loading="lazy" decoding="async">
-  </div>
+  {% if work.url %}</a>{% else %}</div>{% endif %}
   {% endif %}
   <div class="research-copy">
     <p class="research-venue">{{ work.venue }} <span aria-hidden="true">·</span> {{ work.year }}</p>

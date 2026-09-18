@@ -32,7 +32,7 @@
   alt: "AgentSynth pipeline connecting task proposal, execution, verification, and task summarization."
   url: "https://arxiv.org/abs/2506.14205"
   links:
-    - label: "Paper"
+    - label: "arXiv"
       url: "https://arxiv.org/abs/2506.14205"
     - label: "Code & data"
       url: "https://github.com/sunblaze-ucb/AgentSynth"
@@ -52,7 +52,7 @@
   links:
     - label: "Project"
       url: "https://agents-last-exam.org"
-    - label: "Paper"
+    - label: "arXiv"
       url: "https://arxiv.org/abs/2606.05405"
   image_width: 2029
   image_height: 1008
@@ -61,7 +61,7 @@
   category: "ml"
   title: "ScienceIDE: Turning World’s Scientific Codebase into Agent Learnable Environments"
   authors: "Hejia Geng, Zesen Huang, …, **Jingxu Xie**, et al."
-  venue: "arXiv preprint"
+  venue: "arXiv"
   year: 2026
   description: "Turning scientific codebases into executable environments with expert-defined checks for training and evaluating scientific agents."
   image: "/images/research/scienceide-evaluations.svg"
@@ -70,7 +70,7 @@
   image_height: 398
   url: "https://arxiv.org/abs/2609.19134v1"
   links:
-    - label: "Paper"
+    - label: "arXiv"
       url: "https://arxiv.org/pdf/2609.19134v1"
     - label: "Project"
       url: "https://aitonomy.org/projects/scienceide"
@@ -143,9 +143,6 @@
   url: "https://doi.org/10.1038/s41586-026-10636-y"
   image: "/images/research/condensates.png"
   alt: "Device structure and measurements of two-component exciton condensates."
-  links:
-    - label: "Paper"
-      url: "https://doi.org/10.1038/s41586-026-10636-y"
   image_width: 685
   image_height: 333
 
@@ -160,8 +157,6 @@
   image: "/images/research/trion.jpg"
   alt: "Bilayer device structure and optical maps identifying exciton and trion populations."
   links:
-    - label: "Paper"
-      url: "https://doi.org/10.1126/science.adn4584"
     - label: "arXiv"
       url: "https://arxiv.org/abs/2312.03251"
   image_width: 2490
@@ -178,8 +173,6 @@
   image: "/images/research/drag-fig1.png"
   alt: "Electron–hole bilayer device, optical measurement setup, carrier-density maps, and equivalent transport circuit."
   links:
-    - label: "Paper"
-      url: "https://doi.org/10.1126/science.adl1839"
     - label: "arXiv"
       url: "https://arxiv.org/abs/2309.15357"
   image_width: 1305
@@ -193,9 +186,6 @@
   year: 2025
   description: "An energy-efficient nonlinear optical device array brings neural-network activations to computing with incoherent light."
   url: "https://doi.org/10.1126/sciadv.ads4224"
-  links:
-    - label: "Paper"
-      url: "https://doi.org/10.1126/sciadv.ads4224"
   image: "/images/research/optical-fig1.jpg"
   alt: "Nonlinear optical microdevice array, device cross section, equivalent circuit, and optical activation principle."
   image_width: 780
@@ -212,8 +202,6 @@
   alt: "Band alignment, device cross section, and microscope image of a WSe2 and alpha-RuCl3 heterostructure."
   url: "https://doi.org/10.1021/acs.nanolett.3c04195"
   links:
-    - label: "Paper"
-      url: "https://doi.org/10.1021/acs.nanolett.3c04195"
     - label: "arXiv"
       url: "https://arxiv.org/abs/2312.04849"
   image_width: 1176
@@ -230,8 +218,6 @@
   alt: "Schematic and microscopy of graphene nanoribbons grown inside hexagonal boron nitride."
   url: "https://doi.org/10.1038/s41586-024-07243-0"
   links:
-    - label: "Paper"
-      url: "https://doi.org/10.1038/s41586-024-07243-0"
     - label: "arXiv"
       url: "https://arxiv.org/abs/2403.11465"
   image_width: 685
@@ -247,9 +233,6 @@
   image: "/images/research/coulomb.png"
   alt: "Device geometry and remote Coulomb superlattice used to control bilayer graphene."
   url: "https://doi.org/10.1038/s41563-023-01754-3"
-  links:
-    - label: "Paper"
-      url: "https://doi.org/10.1038/s41563-023-01754-3"
   image_width: 685
   image_height: 179
 
@@ -263,9 +246,6 @@
   url: "https://doi.org/10.1038/s41563-021-00923-6"
   image: "/images/research/flat-bands.png"
   alt: "Atomic structure and scanning tunneling microscopy of a reconstructed moiré superlattice."
-  links:
-    - label: "Paper"
-      url: "https://doi.org/10.1038/s41563-021-00923-6"
   image_width: 685
   image_height: 219
 
@@ -279,8 +259,5 @@
   url: "https://doi.org/10.1038/s41567-021-01324-x"
   image: "/images/research/discharge.png"
   alt: "Scanning tunneling microscopy of correlated electron discharge cascades."
-  links:
-    - label: "Paper"
-      url: "https://doi.org/10.1038/s41567-021-01324-x"
   image_width: 685
   image_height: 338
