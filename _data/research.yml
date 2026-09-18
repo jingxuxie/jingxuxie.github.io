@@ -30,7 +30,7 @@
   description: "Generating long-horizon computer-use tasks by composing verified subtasks, with controllable difficulty for agent evaluation."
   image: "/images/research/agentsynth.png"
   alt: "AgentSynth pipeline connecting task proposal, execution, verification, and task summarization."
-  url: "https://arxiv.org/abs/2506.14205"
+  url: "https://proceedings.iclr.cc/paper_files/paper/2026/hash/fb0f9005938c5a80b1114a42156e99e2-Abstract-Conference.html"
   links:
     - label: "arXiv"
       url: "https://arxiv.org/abs/2506.14205"
