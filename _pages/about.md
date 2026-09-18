@@ -11,7 +11,7 @@ redirect_from:
   <div class="profile-text">
     <h1 id="profile-name">Jingxu Xie</h1>
     <p>I am a quantitative researcher at Voleon. I completed my PhD at UC Berkeley, where I worked with <a href="https://physics.berkeley.edu/research-faculty/ultrafast-nano-optics-group">Prof. Feng Wang</a> on experimental condensed-matter physics.</p>
-    <p>My research spans machine learning and automated experimental systems, with recent work on AI agents, evaluation, and scaling laws. I am currently collaborating with Prof. Dawn Song on <strong>Agents’ Last Exam (ALE v2)</strong> as a core contributor.</p>
+    <p>My research spans machine learning and automated experimental systems, with recent work on AI agents, evaluation, and scaling laws. I am currently collaborating with Prof. Dawn Song on Agents’ Last Exam as a core contributor.</p>
     <p>I am also exploring robot learning and sim-to-real transfer through hands-on manipulation experiments. I am interested in how learning systems generalize beyond their training data and interact with the physical world.</p>
     <div class="profile-links" aria-label="Contact and profiles">
       <a href="mailto:jingxuxie@berkeley.edu">Email</a>
