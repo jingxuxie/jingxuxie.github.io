@@ -10,7 +10,6 @@
 # nanoribbons.png: Figure 1 of https://doi.org/10.1038/s41586-024-07243-0
 # condensates.png: Figure 1 of https://doi.org/10.1038/s41586-026-10636-y
 # trion.jpg: embedded Figure 1, page 13 of https://arxiv.org/pdf/2312.03251
-# thermodynamics.png: Figure 1 of https://doi.org/10.1038/s41467-023-43799-7
 # flat-bands.png: Figure 1 of https://doi.org/10.1038/s41563-021-00923-6
 # discharge.png: Figure 1 of https://doi.org/10.1038/s41567-021-01324-x
 # Workshop acceptances checked in the author's OpenReview profile on 2026-09-17.
@@ -253,22 +252,6 @@
       url: "https://doi.org/10.1038/s41563-023-01754-3"
   image_width: 685
   image_height: 179
-
-- id: "thermodynamics"
-  category: "physics"
-  title: "Thermodynamic behavior of correlated electron-hole fluids in van der Waals heterostructures"
-  authors: "Ruishi Qi, Andrew Y. Joe, …, **Jingxu Xie**, et al."
-  venue: "Nature Communications"
-  year: 2023
-  description: "Optical probes reveal the thermodynamics of correlated electron–hole fluids across density and temperature."
-  url: "https://doi.org/10.1038/s41467-023-43799-7"
-  image: "/images/research/thermodynamics.png"
-  alt: "Device geometry and thermodynamic measurements of electron–hole fluids."
-  links:
-    - label: "Paper"
-      url: "https://doi.org/10.1038/s41467-023-43799-7"
-  image_width: 685
-  image_height: 162
 
 - id: "flat-bands"
   category: "physics"
