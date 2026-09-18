@@ -1,24 +1,8 @@
 ---
-layout: portfolio
-title: Research
+layout: null
 permalink: /research/
-excerpt: "Selected papers and projects in machine learning, robot learning, and experimental physics by Jingxu Xie."
+redirect_to: /#selected-work
 redirect_from:
   - /projects/
+sitemap: false
 ---
-<header class="page-intro">
-  <p class="eyebrow">Selected work</p>
-  <h1>Research</h1>
-  <p>Papers and projects spanning machine learning, robot learning, and experimental physics.</p>
-  <a class="text-link" href="https://scholar.google.com/citations?user=F6EaW9AAAAAJ&amp;hl=en">Full publication list on Google Scholar <span aria-hidden="true">↗</span></a>
-</header>
-<section class="research-section" aria-labelledby="ml-heading">
-  <h2 id="ml-heading">Machine learning &amp; robotics</h2>
-  {% assign ml = site.data.research | where: 'category', 'ml' %}
-  {% for work in ml %}{% include research-row.html work=work %}{% endfor %}
-</section>
-<section class="research-section" aria-labelledby="physics-heading">
-  <div class="section-heading"><h2 id="physics-heading">Experimental physics</h2><p>* Equal contribution</p></div>
-  {% assign physics = site.data.research | where: 'category', 'physics' %}
-  {% for work in physics %}{% include research-row.html work=work %}{% endfor %}
-</section>

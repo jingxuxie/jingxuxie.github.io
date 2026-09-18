@@ -17,17 +17,29 @@ redirect_from:
     <div class="profile-links" aria-label="Contact and profiles">
       <a href="mailto:jingxuxie@berkeley.edu">Email</a>
       <a href="https://scholar.google.com/citations?user=F6EaW9AAAAAJ&amp;hl=en">Google Scholar</a>
-      <a href="https://github.com/jingxuxie">GitHub</a>
       <a href="https://www.linkedin.com/in/jingxuxie/">LinkedIn</a>
     </div>
   </div>
   <img class="portrait" src="{{ '/images/2.jpg' | relative_url }}" alt="Jingxu Xie" width="190" height="228" fetchpriority="high">
 </section>
-<section class="home-work" aria-labelledby="selected-heading">
-  <div class="section-heading">
+<section class="home-work" id="selected-work" aria-labelledby="selected-heading">
+  <div class="section-heading selected-heading">
     <h2 id="selected-heading">Selected work</h2>
-    <a href="{{ '/research/' | relative_url }}">Explore research <span aria-hidden="true">→</span></a>
+    <a href="https://scholar.google.com/citations?user=F6EaW9AAAAAJ&amp;hl=en">Google Scholar <span aria-hidden="true">↗</span></a>
   </div>
-  {% assign featured = site.data.research | where: 'featured', true %}
-  {% for work in featured %}{% include research-row.html work=work %}{% endfor %}
+  <section class="research-section" aria-labelledby="ml-heading">
+    <h3 class="category-heading" id="ml-heading">Machine learning &amp; robotics</h3>
+    {% assign ml = site.data.research | where: 'category', 'ml' %}
+    {% for work in ml %}{% include research-row.html work=work heading=4 %}{% endfor %}
+  </section>
+  <section class="research-section workshop-section" aria-labelledby="workshop-heading">
+    <h3 class="category-heading" id="workshop-heading">Selected workshop papers</h3>
+    {% assign workshops = site.data.research | where: 'category', 'workshop' %}
+    {% for work in workshops %}{% include research-row.html work=work heading=4 %}{% endfor %}
+  </section>
+  <section class="research-section" aria-labelledby="physics-heading">
+    <div class="section-heading category-heading"><h3 id="physics-heading">Experimental physics</h3><p>* Equal contribution</p></div>
+    {% assign physics = site.data.research | where: 'category', 'physics' %}
+    {% for work in physics %}{% include research-row.html work=work heading=4 %}{% endfor %}
+  </section>
 </section>

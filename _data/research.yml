@@ -1,85 +1,307 @@
-# Display order is intentional. Descriptions are optional.
-# Preserve author order and equal-contribution markers when editing.
-# Thumbnail sources (unmodified figures/poster):
+# Display order within each category is intentional; descriptions and images are optional.
+# Preserve author order and verified equal-contribution markers when editing.
+# Thumbnails are original paper/project figures, displayed without cropping.
 # agentsynth.png: https://github.com/sunblaze-ucb/AgentSynth/blob/main/Pipeline4.png
+# ale.png: https://arxiv.org/html/2606.05405v2/teaser.png
 # so101.jpg: https://jingxuxie.com/so101/assets/training-pair-right.jpg
-# wse2.jpg: embedded Figure 1 image, page 13 of https://arxiv.org/pdf/2312.04849
+# wse2.jpg: embedded Figure 1, page 13 of https://arxiv.org/pdf/2312.04849
 # coulomb.png: Figure 1 of https://doi.org/10.1038/s41563-023-01754-3
 # nanoribbons.png: Figure 1 of https://doi.org/10.1038/s41586-024-07243-0
-- id: agentsynth
-  category: ml
-  featured: true
+# condensates.png: Figure 1 of https://doi.org/10.1038/s41586-026-10636-y
+# quantum-hall.png: Figure 1 of https://doi.org/10.1038/s41563-025-02316-5
+# trion.jpg: embedded Figure 1, page 13 of https://arxiv.org/pdf/2312.03251
+# drag.webp: unmodified featured figure from https://joelab.ucr.edu/news/250418/
+# thermodynamics.png: Figure 1 of https://doi.org/10.1038/s41467-023-43799-7
+# flat-bands.png: Figure 1 of https://doi.org/10.1038/s41563-021-00923-6
+# discharge.png: Figure 1 of https://doi.org/10.1038/s41567-021-01324-x
+# Workshop acceptances checked in the author's OpenReview profile on 2026-09-17.
+# Use Request paper while a workshop submission is not publicly accessible.
+# ALE is listed as a project contribution, not an authorship claim for its paper.
+
+- id: "agentsynth"
+  category: "ml"
   title: "AgentSynth: Scalable Task Generation for Generalist Computer-Use Agents"
   authors: "**Jingxu Xie**, Dylan Xu, Xuandong Zhao, Dawn Song"
-  venue: ICLR
+  venue: "ICLR"
   year: 2026
   description: "Generating long-horizon computer-use tasks by composing verified subtasks, with controllable difficulty for agent evaluation."
-  image: /images/research/agentsynth.png
+  image: "/images/research/agentsynth.png"
   alt: "AgentSynth pipeline connecting task proposal, execution, verification, and task summarization."
-  url: https://arxiv.org/abs/2506.14205
+  url: "https://arxiv.org/abs/2506.14205"
   links:
-    - label: Paper
-      url: https://arxiv.org/abs/2506.14205
-    - label: Code & data
-      url: https://github.com/sunblaze-ucb/AgentSynth
+    - label: "Paper"
+      url: "https://arxiv.org/abs/2506.14205"
+    - label: "Code & data"
+      url: "https://github.com/sunblaze-ucb/AgentSynth"
+  image_width: 2599
+  image_height: 2126
 
-- id: so101
-  category: ml
-  featured: true
+- id: "ale"
+  category: "ml"
+  title: "Agents’ Last Exam (ALE)"
+  authors: "**Role:** Core contributor and domain lead"
+  venue: "Research collaboration"
+  year: 2026
+  description: "A benchmark of long-horizon professional tasks with verifiable outcomes, built to evaluate agents on real-world work."
+  image: "/images/research/ale.png"
+  alt: "Overview of the professional domains and task structure in Agents’ Last Exam."
+  url: "https://agents-last-exam.org"
+  links:
+    - label: "Project"
+      url: "https://agents-last-exam.org"
+    - label: "Paper"
+      url: "https://arxiv.org/abs/2606.05405"
+  image_width: 2029
+  image_height: 1008
+
+- id: "so101"
+  category: "ml"
   title: "When Does Simulation Help Real-Robot Adaptation?"
   authors: "**Jingxu Xie**"
-  venue: Independent project
+  venue: "Independent project"
   year: 2026
   description: "A hands-on SO-101 manipulation study using ACT and π0.5 to explore how simulated demonstrations interact with limited real-world task coverage."
-  image: /images/research/so101.jpg
+  image: "/images/research/so101.jpg"
   alt: "A paired real and simulated SO-101 manipulation demonstration."
-  url: https://jingxuxie.com/so101/
+  url: "https://jingxuxie.com/so101/"
   links:
-    - label: Project report
-      url: https://jingxuxie.com/so101/
+    - label: "Project report"
+      url: "https://jingxuxie.com/so101/"
+  image_width: 1280
+  image_height: 512
 
-- id: wse2
-  category: physics
+- id: "autoresearcher"
+  category: "workshop"
+  title: "The Autoresearcher Intern: Evidence-Gated Human-AI Collaboration for Scientific Workflow Automation"
+  authors: "**Jingxu Xie**"
+  venue: "COLM Workshop · LM4Sci · Accepted"
+  year: 2026
+  description: "A repository-centered workflow for human–AI scientific prototyping, with evidence gates and auditable experiment records."
+  url: "https://openreview.net/forum?id=H5GxPujneF"
+  links:
+    - label: "OpenReview"
+      url: "https://openreview.net/forum?id=H5GxPujneF"
+
+- id: "pseudonymized"
+  category: "workshop"
+  title: "Pseudonymized but Linkable: Cross-Document Re-identification Risks in LLM-Ready Sensitive Text Corpora"
+  authors: "**Jingxu Xie**"
+  venue: "COLM Workshop · Re-Data · Accepted"
+  year: 2026
+  description: "Studying how repeated details can link identities across pseudonymized documents, and how corpus-aware generalization can reduce that risk."
+  links:
+    - label: "Request paper"
+      url: "mailto:jingxuxie@berkeley.edu?subject=Paper%20request%3A%20Pseudonymized%20but%20Linkable%3A%20Cross-Document%20Re-identification%20Risks%20in%20LLM-Ready%20Sensitive%20Text%20Corpora"
+
+- id: "pragmatics"
+  category: "workshop"
+  title: "Do Agents Learn Pragmatics, or Just Their Partner? Cross-Play Evaluation of Communicative Self-Play in Situated Reference Games"
+  authors: "**Jingxu Xie**"
+  venue: "COLM Workshop · LSEI · Accepted"
+  year: 2026
+  description: "Cross-play evaluation tests whether communicative self-play transfers to unfamiliar listeners or depends on a particular partner."
+  links:
+    - label: "Request paper"
+      url: "mailto:jingxuxie@berkeley.edu?subject=Paper%20request%3A%20Do%20Agents%20Learn%20Pragmatics%2C%20or%20Just%20Their%20Partner%3F%20Cross-Play%20Evaluation%20of%20Communicative%20Self-Play%20in%20Situated%20Reference%20Games"
+
+- id: "clarify"
+  category: "workshop"
+  title: "Ask, Don't Guess: Learning When to Clarify in Situated Instruction Following"
+  authors: "**Jingxu Xie**"
+  venue: "COLM Workshop · LSEI · Accepted"
+  year: 2026
+  description: "Learning when a clarification question is worth asking by balancing useful information against interruption and error costs."
+  links:
+    - label: "Request paper"
+      url: "mailto:jingxuxie@berkeley.edu?subject=Paper%20request%3A%20Ask%2C%20Don%27t%20Guess%3A%20Learning%20When%20to%20Clarify%20in%20Situated%20Instruction%20Following"
+
+- id: "multilingual-judge"
+  category: "workshop"
+  title: "Do Not Let English Judge the World: Protocol Sensitivity in Multilingual LLM-as-a-Judge Evaluation"
+  authors: "**Jingxu Xie**"
+  venue: "COLM Workshop · GenAI4World · Accepted"
+  year: 2026
+  description: "Examining how rubric language, translation, and bilingual judging change multilingual evaluation outcomes."
+  links:
+    - label: "Request paper"
+      url: "mailto:jingxuxie@berkeley.edu?subject=Paper%20request%3A%20Do%20Not%20Let%20English%20Judge%20the%20World%3A%20Protocol%20Sensitivity%20in%20Multilingual%20LLM-as-a-Judge%20Evaluation"
+
+- id: "condensates"
+  category: "physics"
+  title: "Two-component exciton condensates in an electron–hole bilayer"
+  authors: "Ruishi Qi, Qize Li, …, **Jingxu Xie**, et al."
+  venue: "Nature"
+  year: 2026
+  description: "Evidence for two-component exciton condensates in an electron–hole bilayer under magnetic fields."
+  url: "https://doi.org/10.1038/s41586-026-10636-y"
+  image: "/images/research/condensates.png"
+  alt: "Device structure and measurements of two-component exciton condensates."
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.1038/s41586-026-10636-y"
+  image_width: 685
+  image_height: 333
+
+- id: "quantum-hall"
+  category: "physics"
+  title: "Competition between excitonic insulators and quantum Hall states in correlated electron–hole bilayers"
+  authors: "Ruishi Qi, Qize Li, …, **Jingxu Xie**, et al."
+  venue: "Nature Materials"
+  year: 2026
+  description: "Mapping how magnetic fields reshape the competition between excitonic insulating and quantum Hall states."
+  url: "https://doi.org/10.1038/s41563-025-02316-5"
+  image: "/images/research/quantum-hall.png"
+  alt: "Electron–hole bilayer device and magnetic-field-dependent optical measurements."
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.1038/s41563-025-02316-5"
+  image_width: 685
+  image_height: 307
+
+- id: "trion"
+  category: "physics"
+  title: "Electrically controlled interlayer trion fluid in electron-hole bilayers"
+  authors: "Ruishi Qi, Qize Li, Zuocheng Zhang, Sudi Chen, **Jingxu Xie**, et al."
+  venue: "Science"
+  year: 2025
+  description: "Electrical control of interlayer three-particle bound states and exciton–trion mixtures in electron–hole bilayers."
+  url: "https://doi.org/10.1126/science.adn4584"
+  image: "/images/research/trion.jpg"
+  alt: "Bilayer device structure and optical maps identifying exciton and trion populations."
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.1126/science.adn4584"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2312.03251"
+  image_width: 2490
+  image_height: 1265
+
+- id: "drag"
+  category: "physics"
+  title: "Perfect Coulomb drag and exciton transport in an excitonic insulator"
+  authors: "Ruishi Qi\\*, Andrew Y. Joe\\*, Zuocheng Zhang, **Jingxu Xie**, et al."
+  venue: "Science"
+  year: 2025
+  description: "Optical transport measurements reveal perfect Coulomb drag in a correlated electron–hole bilayer."
+  url: "https://doi.org/10.1126/science.adl1839"
+  image: "/images/research/drag.webp"
+  alt: "Measured Coulomb drag ratio near balanced electron and hole densities."
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.1126/science.adl1839"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2309.15357"
+  image_width: 720
+  image_height: 544
+
+- id: "optical"
+  category: "physics"
+  title: "Femtojoule optical nonlinearity for deep learning with incoherent illumination"
+  authors: "Qixin Feng\\*, Can B. Uzundal\\*, Ruihan Guo, Collin Sanborn, Ruishi Qi, **Jingxu Xie**, et al."
+  venue: "Science Advances"
+  year: 2025
+  description: "An energy-efficient nonlinear optical device array brings neural-network activations to computing with incoherent light."
+  url: "https://doi.org/10.1126/sciadv.ads4224"
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.1126/sciadv.ads4224"
+
+- id: "wse2"
+  category: "physics"
   title: "Low Resistance Contact to P-Type Monolayer WSe₂"
   authors: "**Jingxu Xie**\\*, Zuocheng Zhang\\*, Haodong Zhang\\*, et al."
-  venue: Nano Letters
+  venue: "Nano Letters"
   year: 2024
   description: "Charge-transfer doping at a van der Waals interface enables low-resistance contacts for atomically thin p-type transistors."
-  image: /images/research/wse2.jpg
+  image: "/images/research/wse2.jpg"
   alt: "Band alignment, device cross section, and microscope image of a WSe2 and alpha-RuCl3 heterostructure."
-  url: https://doi.org/10.1021/acs.nanolett.3c04195
+  url: "https://doi.org/10.1021/acs.nanolett.3c04195"
   links:
-    - label: Paper
-      url: https://doi.org/10.1021/acs.nanolett.3c04195
-    - label: arXiv
-      url: https://arxiv.org/abs/2312.04849
+    - label: "Paper"
+      url: "https://doi.org/10.1021/acs.nanolett.3c04195"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2312.04849"
+  image_width: 1176
+  image_height: 364
 
-- id: coulomb
-  category: physics
-  title: "Engineering correlated insulators in bilayer graphene with a remote Coulomb superlattice"
-  authors: "Zuocheng Zhang\\*, **Jingxu Xie**\\*, Wenyu Zhao, et al."
-  venue: Nature Materials
-  year: 2024
-  description: "A remote charge superlattice provides a tunable route to correlated electronic states in bilayer graphene."
-  image: /images/research/coulomb.png
-  alt: "Device geometry and remote Coulomb superlattice used to control bilayer graphene."
-  url: https://doi.org/10.1038/s41563-023-01754-3
-  links:
-    - label: Paper
-      url: https://doi.org/10.1038/s41563-023-01754-3
-
-- id: nanoribbons
-  category: physics
+- id: "nanoribbons"
+  category: "physics"
   title: "Graphene nanoribbons grown in hBN stacks for high-performance electronics"
   authors: "Bosai Lyu\\*, Jiajun Chen\\*, Sen Wang\\*, Shuo Lou\\*, Peiyue Shen\\*, **Jingxu Xie**\\*, Lu Qiu\\*, et al."
-  venue: Nature
+  venue: "Nature"
   year: 2024
   description: "Growing long, aligned graphene nanoribbons inside hexagonal boron nitride stacks for electronic devices."
-  image: /images/research/nanoribbons.png
+  image: "/images/research/nanoribbons.png"
   alt: "Schematic and microscopy of graphene nanoribbons grown inside hexagonal boron nitride."
-  url: https://doi.org/10.1038/s41586-024-07243-0
+  url: "https://doi.org/10.1038/s41586-024-07243-0"
   links:
-    - label: Paper
-      url: https://doi.org/10.1038/s41586-024-07243-0
-    - label: arXiv
-      url: https://arxiv.org/abs/2403.11465
+    - label: "Paper"
+      url: "https://doi.org/10.1038/s41586-024-07243-0"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2403.11465"
+  image_width: 685
+  image_height: 567
+
+- id: "coulomb"
+  category: "physics"
+  title: "Engineering correlated insulators in bilayer graphene with a remote Coulomb superlattice"
+  authors: "Zuocheng Zhang\\*, **Jingxu Xie**\\*, Wenyu Zhao, et al."
+  venue: "Nature Materials"
+  year: 2024
+  description: "A remote charge superlattice provides a tunable route to correlated electronic states in bilayer graphene."
+  image: "/images/research/coulomb.png"
+  alt: "Device geometry and remote Coulomb superlattice used to control bilayer graphene."
+  url: "https://doi.org/10.1038/s41563-023-01754-3"
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.1038/s41563-023-01754-3"
+  image_width: 685
+  image_height: 179
+
+- id: "thermodynamics"
+  category: "physics"
+  title: "Thermodynamic behavior of correlated electron-hole fluids in van der Waals heterostructures"
+  authors: "Ruishi Qi, Andrew Y. Joe, …, **Jingxu Xie**, et al."
+  venue: "Nature Communications"
+  year: 2023
+  description: "Optical probes reveal the thermodynamics of correlated electron–hole fluids across density and temperature."
+  url: "https://doi.org/10.1038/s41467-023-43799-7"
+  image: "/images/research/thermodynamics.png"
+  alt: "Device geometry and thermodynamic measurements of electron–hole fluids."
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.1038/s41467-023-43799-7"
+  image_width: 685
+  image_height: 162
+
+- id: "flat-bands"
+  category: "physics"
+  title: "Imaging moiré flat bands in three-dimensional reconstructed WSe₂/WS₂ superlattices"
+  authors: "Hongyuan Li\\*, Shaowei Li\\*, Mit H. Naik\\*, **Jingxu Xie**, et al."
+  venue: "Nature Materials"
+  year: 2021
+  description: "Scanning tunneling microscopy connects atomic reconstruction to localized moiré flat-band states."
+  url: "https://doi.org/10.1038/s41563-021-00923-6"
+  image: "/images/research/flat-bands.png"
+  alt: "Atomic structure and scanning tunneling microscopy of a reconstructed moiré superlattice."
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.1038/s41563-021-00923-6"
+  image_width: 685
+  image_height: 219
+
+- id: "discharge"
+  category: "physics"
+  title: "Imaging local discharge cascades for correlated electrons in WS₂/WSe₂ moiré superlattices"
+  authors: "Hongyuan Li\\*, Shaowei Li\\*, Mit H. Naik, **Jingxu Xie**, et al."
+  venue: "Nature Physics"
+  year: 2021
+  description: "Real-space imaging resolves local charging and discharge cascades of correlated electrons in a moiré superlattice."
+  url: "https://doi.org/10.1038/s41567-021-01324-x"
+  image: "/images/research/discharge.png"
+  alt: "Scanning tunneling microscopy of correlated electron discharge cascades."
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.1038/s41567-021-01324-x"
+  image_width: 685
+  image_height: 338

@@ -1,11 +1,13 @@
 {% assign work = include.work %}
-<article class="research-row" id="{{ work.id }}">
+<article class="research-row{% unless work.image %} research-row--text{% endunless %}" id="{{ work.id }}">
+  {% if work.image %}
   <div class="research-image">
-    <img src="{{ work.image | relative_url }}" alt="{{ work.alt | escape }}" width="640" height="420" loading="lazy" decoding="async">
+    <img src="{{ work.image | relative_url }}" alt="{{ work.alt | escape }}"{% if work.image_width %} width="{{ work.image_width }}" height="{{ work.image_height }}"{% endif %} loading="lazy" decoding="async">
   </div>
+  {% endif %}
   <div class="research-copy">
     <p class="research-venue">{{ work.venue }} <span aria-hidden="true">·</span> {{ work.year }}</p>
-    <h3><a href="{{ work.url | escape }}">{{ work.title }}</a></h3>
+    <h{{ include.heading | default: 3 }}>{% if work.url %}<a href="{{ work.url | escape }}">{{ work.title }}</a>{% else %}{{ work.title }}{% endif %}</h{{ include.heading | default: 3 }}>
     <div class="research-authors">{{ work.authors | markdownify }}</div>
     {% if work.description %}<p class="research-description">{{ work.description }}</p>{% endif %}
     <div class="research-links" aria-label="Resources for {{ work.title | escape }}">

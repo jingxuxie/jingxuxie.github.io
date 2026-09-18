@@ -1,5 +1,3 @@
 main:
-  - title: "Home"
-    url: /
-  - title: "Research"
-    url: /research/
+  - title: "Selected work"
+    url: /#selected-work
