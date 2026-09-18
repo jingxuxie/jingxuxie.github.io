@@ -2,6 +2,7 @@
 # Preserve author order and verified equal-contribution markers when editing.
 # Thumbnails are original paper/project figures, displayed without cropping.
 # agentsynth.png: https://github.com/sunblaze-ucb/AgentSynth/blob/main/Pipeline4.png
+# scienceide.svg: Figure 1 of https://arxiv.org/html/2609.19134v1 (scienceide_summary.svg)
 # ale.png: https://arxiv.org/html/2606.05405v2/teaser.png
 # so101.jpg: https://jingxuxie.com/so101/assets/training-pair-right.jpg
 # wse2.jpg: embedded Figure 1, page 13 of https://arxiv.org/pdf/2312.04849
@@ -38,6 +39,26 @@
       url: "https://github.com/sunblaze-ucb/AgentSynth"
   image_width: 2599
   image_height: 2126
+
+- id: "scienceide"
+  category: "ml"
+  title: "ScienceIDE: Turning World’s Scientific Codebase into Agent Learnable Environments"
+  authors: "Hejia Geng, Zesen Huang, …, **Jingxu Xie**, et al."
+  venue: "arXiv preprint"
+  year: 2026
+  description: "Turning scientific codebases into executable environments with expert-defined checks for training and evaluating scientific agents."
+  image: "/images/research/scienceide.svg"
+  alt: "ScienceIDE overview connecting scientific codebases, verified tasks, agent learning, and scientific evaluation."
+  image_width: 702
+  image_height: 1050
+  url: "https://arxiv.org/abs/2609.19134v1"
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/pdf/2609.19134v1"
+    - label: "Project"
+      url: "https://aitonomy.org/projects/scienceide"
+    - label: "Code"
+      url: "https://github.com/aitofound/ScienceIDE"
 
 - id: "ale"
   category: "ml"
